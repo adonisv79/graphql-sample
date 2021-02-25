@@ -1,0 +1,19 @@
+
+input CreateIndustryInput {
+    title: String!
+}
+
+type Industry {
+    id: ID!
+    title: String
+    stocks: [Stock]
+}
+
+type Query {
+    industry(id: ID!): Industry
+    industries: [Industry]
+}
+
+type Mutation {
+    createIndustry(input: CreateIndustryInput): Industry
+}

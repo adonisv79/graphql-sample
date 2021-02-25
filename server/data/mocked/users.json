@@ -1,0 +1,13 @@
+[
+  {
+    "id": "admin",
+    "email": "admin@stocks.com",
+    "password": "admin123"
+  },
+  {
+    "id": "user",
+    "email": "user@stocks.com",
+    "password": "user123"
+  }
+]
+  

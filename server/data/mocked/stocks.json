@@ -1,0 +1,38 @@
+[
+  {
+    "id": "1",
+    "symbol": "ALI",
+    "title": "Ayala Land Inc.",
+    "industryId": "PPT"
+  },
+  {
+    "id": "2",
+    "symbol": "BDO",
+    "title": "Banco De Oro",
+    "industryId": "BNK"
+  },
+  {
+    "id": "3",
+    "symbol": "BPI",
+    "title": "Bank of the Philippine Islands",
+    "industryId": "BNK"
+  },
+  {
+    "id": "4",
+    "symbol": "MBT",
+    "title": "Metropolitan Bank and Trust",
+    "industryId": "BNK"
+  },
+  {
+    "id": "5",
+    "symbol": "MEG",
+    "title": "Megaworld Corp.",
+    "industryId": "PPT"
+  },
+  {
+    "id": "6",
+    "symbol": "SMPH",
+    "title": "SM Prime Holdings",
+    "industryId": "PPT"
+  }
+]

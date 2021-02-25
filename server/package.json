@@ -1,0 +1,32 @@
+{
+  "name": "gql-sample-server",
+  "version": "1.0.0",
+  "description": "A sample GQL web server",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --ext js,graphql --ignore data/ index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "GQL",
+    "server"
+  ],
+  "author": "adonisv79@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "@graphql-tools/load-files": "^6.2.5",
+    "@graphql-tools/merge": "^6.2.9",
+    "apollo-boost": "^0.4.9",
+    "apollo-server-express": "^2.21.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-jwt": "^6.0.0",
+    "graphql": "^15.5.0",
+    "jsonwebtoken": "^8.5.1",
+    "notarealdb": "^0.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}

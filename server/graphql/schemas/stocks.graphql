@@ -1,0 +1,21 @@
+input CreateStockInput {
+    symbol: String!
+    title: String!
+    industryId: ID!
+}
+
+type Stock {
+    id: ID!
+    symbol: String
+    title: String
+    industry: Industry
+}
+
+type Query {
+    stock(id: ID!): Stock
+    stocks: [Stock]
+}
+
+type Mutation {
+    createStock(input: CreateStockInput): Stock
+}
